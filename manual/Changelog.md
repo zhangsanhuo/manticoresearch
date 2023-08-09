@@ -1,7 +1,7 @@
 # Changelog
 
 # Version 6.2.0
-Released: August 4th 2023
+Released: August 4th 2023  test
 
 ### Major changes
 * The query optimizer has been enhanced to support full-text queries, significantly improving search efficiency and performance.
