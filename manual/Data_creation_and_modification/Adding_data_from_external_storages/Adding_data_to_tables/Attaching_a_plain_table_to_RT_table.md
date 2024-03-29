@@ -36,9 +36,6 @@ Before the ATTACH, the RT table is empty and has 3 fields:
 
 ```sql
 mysql> DESC rt;
-Empty set (0.00 sec)
-
-mysql> SELECT * FROM rt;
 +-----------+---------+
 | Field     | Type    |
 +-----------+---------+
@@ -47,6 +44,9 @@ mysql> SELECT * FROM rt;
 | testattr  | uint    |
 +-----------+---------+
 3 rows in set (0.00 sec)
+
+mysql> SELECT * FROM rt;
+Empty set (0.00 sec)
 ```
 
 The plain table is not empty:
